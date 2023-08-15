@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 3px 6px rgb(194, 194, 194);
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    justify-items: center;
+    align-items: center;
+    grid-auto-rows: 400px;  
+    border-bottom: 3px solid rgb(194, 194, 194);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.hero div {
+    align-self: center;
+    margin-left: 30px;
+}
+
+.hero h1 {
+    font-size: 5rem;
+    font-weight: 1000;
+    margin-bottom: 20px;
+    line-height: 5.5rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.hero button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    height: 3rem;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #fd9800;
+    color: #fcfcfc;
+    border: none;
+    box-shadow: 0 2px 3px rgb(194, 194, 194);
+}
+
+.hero button svg {
+    color: #fcfcfc;
+    width: 30px;
+    
+}
+
+.dishes {
+    margin-top: 40px;
+}
+
+.dishes h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #003307;
+}
+
+.grid-dishes {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(150px, 200px));
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.grid-dishes__pasta {
+    grid-area: 1 / 1 /3 / 3; 
+}
+
+.menu {
+    margin-top: 40px;
+}
+.menu h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #003307;
+    margin-top: 20px;
+    
+}
+
+.grid-menu {
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.heart-img-containter {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffdada;
+    border-radius: 30px 0 0 0;
+}
+
+.heart-img-containter svg {
+    width: 25px;
+    height: 25px;
+    align-self: end;
+    fill: #baff9f;
+}
+
+.menu-img2 svg {
+    width: 25px;
+    height: 25px;
+    align-self: end;
+    fill: #fd8f46;
+}
+
+
+
